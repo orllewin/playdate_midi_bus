@@ -2,7 +2,7 @@
 
 ![screenshot](screen-0055.png)    ![screenshot](screen-0402.png)
 
-Midi to Playdate comms using a computer running Processing as an intermediary: press keyboard note  > computer midi > Processing Midi lib > Processing serial out > `mn(noteNumber)` received by Playdate.
+Midi to Playdate comms using a computer running Processing as an intermediary: press keyboard note  > computer midi > Processing Midi lib > Processing serial out > `mn(noteNumber)` received by Playdate. Written to allow Midi keyboard control of a synth in Modular Play (an upcoming Playdate title).
 
 * Setup your computer midi environment.
 * Install [Processing](processing.org/).
@@ -26,3 +26,5 @@ end
 ```
 
 If you encounter problems you may need to restart your Playdate to try again.
+
+Read the blog to see how this works: [Playdate Serial Comms](https://publish.obsidian.md/orllewin/computers/playdate/Serial+Comms)
