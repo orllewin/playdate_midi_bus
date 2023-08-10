@@ -7,6 +7,8 @@
 import themidibus.*;
 import processing.serial.*;
 
+String serialAddress = "/dev/tty.usbmodemPDU1_Y0075281"
+
 Serial serialPort = null;
 MidiBus myBus;
 boolean serialActive = false;
@@ -65,7 +67,7 @@ void keyPressed() {
       serialActive = false;
     }else{
       println("Starting serial connection...");
-      serialPort = new Serial(this, "/dev/tty.usbmodemPDU1_Y0075281", 115200);
+      serialPort = new Serial(this, serialAddress, 115200);
       serialActive = true;
     }
   }
