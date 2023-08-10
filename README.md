@@ -1,5 +1,7 @@
 # Playdate Midi Bus
 
+![](./screen-0055.tif)![](./screen-0402.tif)![](./screen-0898.tif)![](./screen-1304.tif)
+
 Midi to Playdate comms using a computer running Processing as an intermediary: press keyboard note  > computer midi > Processing Midi lib > Processing serial out > `mn(noteNumber)` received by Playdate.
 
 * Setup your computer midi environment.
